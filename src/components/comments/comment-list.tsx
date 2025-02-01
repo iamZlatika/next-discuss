@@ -5,7 +5,6 @@ interface CommentListProps {
   fetchData: () => Promise<CommentWithAuthour[]>
 }
 
-// TODO: Get a list of comments from somewhere
 export default async function CommentList({ fetchData }: CommentListProps) {
 
   const comments = await fetchData()
