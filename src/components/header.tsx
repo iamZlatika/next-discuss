@@ -9,11 +9,7 @@ import HeaderAuth from './header-auth'
 import SearchInput from './search-input'
 import { Suspense } from 'react'
 
-
 export default function Header() {
-
-
-
     return (
         <Navbar className='shadow mb-6'>
             <NavbarBrand>
